@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+        .box1{
+            background-color: red;
+            display: inline-block;
+        }
+        .box2{
+            background-color: green;
+            display: inline-block;
+        }
+        .box3{
+            background-color: blue;
+        }
+        .box4{
+            background-color: orange;
+            display: none;
+        }
+        .box5{
+            background-color: yellow;
+            display: inline;
+        }
+        .box6{
+            background-color: aliceblue;
+            padding: 10px 10px 10px 12px;
+            border: 1px solid black;
+            border-width: 3px;
+            border-style: solid dashed double groove;
+            border-top: 1px solid black;
+            border-right: 1px solid red;
+            border-bottom: 1px solid green;
+            border-left: 1px solid blue;
+        }
+        .navigation{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .navigation li{
+            display: inline-block;
+            padding: 10px 20px;
+            
+        }
+        .navigation li a{
+            color: crimson;
+            text-decoration: none;
+            font-size: 24px;
+            
+        }
+        /* pseudo-class */
+        .navigation li a:hover{
+            text-decoration: underline;
+            color: blue;
+            
+        }
+        #box7{
+            border: 1px solid black;
+            padding: 20px;
+
+        }
+        #box7:hover p{
+            color: cornflowerblue;
+        }
+        #box7 a{
+            text-decoration: none;
+            color: darkolivegreen;
+        }
+        .parent li:first-child {
+            color: fuchsia;
+            font-size: 24px;
+
+        }
+        .parent li:nth-child(2n) {
+            color: green;
+            font-size: 24px;
+
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>CSS Display Properties</h1>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box box5">Lorem ipsum dolor sit amet.</div>
+    <div class="box box6">Lorem ipsum dolor sit amet.</div>
+
+    <ul class="navigation">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">About Us</a>
+        </li>
+        <li>
+            <a href="#">Contact Us</a>
+        </li>
+    </ul>
+    <div id="box7">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, commodi.
+        </p>
+        <a href="#">Lorem ipsum dolor sit.</a>
+    </div>
+
+    <ul class="parent">
+        
+        <li>1st Child</li>
+        <li>2nd Child</li>
+        <li>3rdChild</li>
+        <li>4th Child</li>
+        <li>5th child</li>
+
+    </ul>
+
+</body>
+</html>
