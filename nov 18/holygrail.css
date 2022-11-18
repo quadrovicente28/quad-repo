@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+body {
+    margin: 0;
+}
+header,
+footer{
+    height: 20vh;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 15px;
+    background-color: yellowgreen;
+}
+main{
+    display: flex;
+    justify-content: column;
+    height: 500px;
+    height: 60vh;
+}    
+aside,
+nav{
+    width: 26%;
+}
+aside{
+    background-color: beige;
+    
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+nav{
+    
+    background-color: lightskyblue;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+article{
+    width: 76%;
+    padding: 20px;
+}
+.container{
+    background-color: beige;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+.field {
+    display:flex;
+    
+    
+    padding: 8px;
+
+    
+}
+.field label{
+    
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.field input{
+    flex: 1;
+    padding: 5px;
+    height: 25px;
+}
+.field select{
+    flex: 2;
+    padding: 5px;
+}
+
+.flex-item.left{
+    width: 60%;
+    padding-right: 100px;
+}
+.flex-item.right{
+    width: 40%;
+    padding: 10px;
+    font-size: 14px;
+     
+}
+.rightcontainer {
+    padding-bottom: 3px;
+}
+.right {
+    padding-bottom: 5px;
+}
+.bot{
+    
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    color: crimson;
+    
+    
+}
+input[type="submit"]{
+    height: 40px;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 3px solid #8C82FC;
+  background: #fff;
+  color: #8C82FC;
+  border-radius: 40px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .35s;
+}
+input[type="submit"]:hover{
+    background: #8C82FC;
+    color: #fff;
+
+}
