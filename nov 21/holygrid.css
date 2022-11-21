@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.grid {
+    display: grid;
+    height: 90vh;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns:20% 1fr 20% ;
+    grid-template-areas: "Header header header"
+                        "nav article aside"
+                        "footer footer footer"
+    ;
+}
+header{
+    grid-area: 1 / 1 / 2 / span 3;
+    background-color: yellowgreen;
+}
