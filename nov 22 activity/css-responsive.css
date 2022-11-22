@@ -41,6 +41,7 @@ article {
     
 }
 article div{
+    flex: 1;
     border: 1px solid green;
     
 }
