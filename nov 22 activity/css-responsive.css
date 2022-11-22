@@ -41,9 +41,9 @@ article {
     
 }
 article div{
-    flex: 1;
-    border: 1px solid green;
     
+    border: 1px solid green;
+    flex: 1;
 }
 #bus,
 #spo {
