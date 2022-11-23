@@ -5,7 +5,7 @@
     
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
     margin: auto;
     box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
     
@@ -45,7 +45,7 @@ article {
 article div{
     
     border: 1px solid green;
-    flex: 1;
+    
 }
 #bus,
 #spo {
@@ -62,7 +62,7 @@ article div span{
 
 }
 @media screen and (max-width: 705px) {
-    article{
+    article {
         
         flex-wrap: wrap;
         width: 100%;
@@ -77,9 +77,9 @@ article div span{
    
 }
 @media screen and (max-width: 714px) {
-    nav{
+    article{
         flex-wrap: wrap;
-        width: 100%;
+        
     }
     
 }
@@ -91,4 +91,12 @@ article div span{
     font-weight: bold;
     }
 
+}
+@media screen and (max-width: 714px) {
+    nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        
+    }
 }
