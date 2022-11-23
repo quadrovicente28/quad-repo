@@ -39,6 +39,7 @@ nav a{
 article {
     display: flex;
     font-size: 18px;
+
     
     
 }
@@ -61,7 +62,7 @@ article div span{
     font-weight: bold;
 
 }
-@media screen and (max-width: 705px) {
+@media screen and (max-width: 714px) {
     article {
         
         flex-wrap: wrap;
@@ -83,7 +84,7 @@ article div span{
     }
     
 }
-@media screen and (max-width: 606px){
+@media screen and (max-width: 714px){
     
     header {
     font-size: 20px;
